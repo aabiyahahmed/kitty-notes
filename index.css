@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(215, 229, 236);
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+    font-family: "Rubik";
+    user-select: none;
+}
+
+#card{
+    height: fit-content;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border-style: double;
+    border-color: rgb(89, 138, 160);
+    background-color: rgb(223, 186, 180);
+    max-width: 320px;
+}
+
+img{
+    height: 250px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px grey;
+}
+#input-field{
+    margin: 20px; 
+    border:none;
+    height: 40px;
+    width: 200px;
+    border-radius: 6px ;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Rubik";
+}
+
+#add-button{
+    border:none;
+    background-color: rgb(140, 41, 23);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    font-family: "Rubik";
+    transition: background-color 0.3s;
+    box-shadow: 3px 3px 2px rgb(56, 54, 54);
+}
+
+#add-button:hover{
+    background-color: rgb(181, 111, 99);
+    box-shadow: 3px 3px 2px grey;
+}
+
+ul{
+    margin-top: 15px;
+    display: flex;  
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0px;
+
+}
+li{
+    list-style-type: none;
+    padding: 7px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 7px;
+    color: rgb(6, 42, 64);
+    box-shadow: 3px 3px 3px grey;
+    flex-grow: 1;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+li:hover{
+    background-color: rgb(237, 221, 221);
+    cursor: pointer;
+}
